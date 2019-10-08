@@ -1,8 +1,8 @@
 -- Create a new database
-CREATE DATABASE xtreme;
+CREATE DATABASE workshop;
 
 -- Select the newly created database
-USE xtreme;
+USE workshop;
 
 -- Generating database schema which contains a table namely xtreme
 CREATE TABLE `xtreme` (
