@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>IMG Workshop '19</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm">
+        <a class="navbar-brand" href="https://github.com/IMGIITRoorkee/workshop2019">
+            <h3>Workshop '19</h3>
+        </a>
+        <a href="index.php">
+            <h3>Home</h3>
+        </a>
+    </nav>
+
+    <div class="container card col-sm-7">
+
+        <div class="form-header">
+            <h3> Add a New Video </h3>
+        </div>
+
+        <form action="insert.php" method="POST">
+            <!-- Video Genre field -->
+            <div class="form-group">
+                <label for="video_genre">Video Genre :</label>
+                <input type="text" id="video_genre" name="video_genre" class="form-control" />
+            </div>
+            <!-- Video Description field -->
+            <div class="form-group">
+                <label for="description">Description :</label>
+                <textarea id="description" name="description" class="form-control" rows="6"></textarea>
+            </div>
+            <!-- Video Link Field -->
+            <div class="form-group">
+                <label for="video_link">Youtube video id : </label>
+                <input type="text" id="video_link" name="video_link" class="form-control" />
+            </div>
+            <!-- Submit form to DataBase -->
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
