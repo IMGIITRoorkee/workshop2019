@@ -48,7 +48,10 @@ Detailed guidelines for setting up the project can be viewed at [SETUP.md](https
 ## Additional features that can be added to this project
 * Make your app pretty using CSS (https://www.w3schools.com/css/)
 * Prevent SQL Injection and XSS attacks (https://www.w3schools.com/sql/sql_injection.asp)
-* Add user signup and login features
+* Edit description of video after posting once.
+* Voting feature for each video.
+* Enable user to add comments to a video.
+* Add user signup and login features.
   * Username/Email and Password based login with a Remember Me button
   * Change password feature
   * Save the password as a hash (https://crackstation.net/hashing-security.htm)
