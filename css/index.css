@@ -1,0 +1,66 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.navbar{
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:70px;
+    border:1px solid #ced4da;
+    height: 80px;
+}
+
+a, a:hover{
+    color:black;
+    text-decoration:none;
+}
+
+a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: black;
+    transition: width .5s;
+}
+
+a:hover::after{
+	width: 100%;
+}
+
+/*
+    Styles for the home (index) page.
+*/
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.genre-header {
+    display: inline-block;
+    border-bottom: 1px black dotted;
+}
+
+.video-count {
+    float: right;
+}
+
+/*
+    Styles for the category page.
+*/
+.category-header {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 1em;
+}
+
+.video-card {
+    margin-bottom: 1em;
+}
+
+.video-description {
+    font-style: italic;
+    color: gray;
+    margin-top: 0.5em;
+}
